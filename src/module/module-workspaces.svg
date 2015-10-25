@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 19.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
 <rect fill="#7A950F" width="64" height="64"/>
-<g opacity="0.5">
-	<rect x="18" y="14" fill="#FFFFFF" width="36" height="26"/>
-	<rect x="20" y="20" fill="#7A950F" width="32" height="18"/>
-	<rect x="50" y="16" fill="#7A950F" width="2" height="2"/>
-	<rect x="20" y="16" opacity="0.5" fill="#7A950F" enable-background="new    " width="28" height="2"/>
-</g>
-<g>
-	<rect x="10" y="24" fill="#FFFFFF" width="36" height="26"/>
-	<rect x="12" y="30" fill="#7A950F" width="32" height="18"/>
-	<rect x="42" y="26" fill="#7A950F" width="2" height="2"/>
-	<rect x="12" y="26" opacity="0.5" fill="#7A950F" enable-background="new    " width="28" height="2"/>
-	<rect x="16" y="34" fill="#FFFFFF" width="24" height="2"/>
-	<rect x="16" y="38" fill="#FFFFFF" width="24" height="2"/>
-	<rect x="16" y="42" fill="#FFFFFF" width="24" height="2"/>
-</g>
+<path fill="#FFFFFF" d="M49,26h-3v2h2v20H28v-2h-2v3c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V27C50,26.4,49.6,26,49,26z"/>
+<path fill="#FFFFFF" d="M43,14H21c-0.6,0-1,0.4-1,1v3h2v-2h20v20h-2v2h3c0.6,0,1-0.4,1-1V15C44,14.4,43.6,14,43,14z"/>
+<path fill="#FFFFFF" d="M37,20H15c-0.6,0-1,0.4-1,1v22c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V21C38,20.4,37.6,20,37,20z M36,42H16V22
+	h20V42z"/>
+<rect x="20" y="18" opacity="0.3" fill="#FFFFFF" width="2" height="2"/>
+<rect x="38" y="36" opacity="0.3" fill="#FFFFFF" width="2" height="2"/>
+<rect x="44" y="26" opacity="0.3" fill="#FFFFFF" width="2" height="2"/>
+<rect x="26" y="44" opacity="0.3" fill="#FFFFFF" width="2" height="2"/>
 </svg>

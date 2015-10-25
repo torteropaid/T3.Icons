@@ -186,7 +186,7 @@
                             <small class="text-muted">{{ folder.count }}</small>
                         </h3>
 
-                        {% if folder.folder in ['action'] %}
+                        {% if folder.folder in ['actions'] %}
 
                             <div class="card card-block clearfix">
                                 {% for icon in folder.icons %}
@@ -260,6 +260,33 @@
                                     </tbody>
                                 </table>
                             </div>
+                            
+                        {% elseif folder.folder in ['module'] %}
+
+                             <div class="row">
+                            {% for icon in folder.icons %}
+                                <div class="col-sm-6 col-xl-4">
+                                    <p>{{ icon.file|replace({'.svg': ''}) }}</p>
+                                    <div class="card card-block text-center">
+
+                                        <span class="icon icon-size-default icon-state-default" title="{{ icon.file|replace({'.svg': ''}) }}">
+                                            <span class="icon-markup">
+                                                {{ icon.inline }}
+                                            </span>
+                                        </span>
+                                        
+                                        <hr>
+
+                                        <span class="icon icon-size-small icon-state-default" title="{{ icon.file|replace({'.svg': ''}) }}">
+                                            <span class="icon-markup">
+                                                {{ icon.inline }}
+                                            </span>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            {% endfor %}
+                            </div>
 
                         {% elseif folder.folder in ['overlay'] %}
 
@@ -300,18 +327,6 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <hr>
-                                        <span class="icon icon-size-small icon-state-default" title="{{ icon.file|replace({'.svg': ''}) }}">
-                                            <span class="icon-markup">
-                                                {{ icon.inline }}
-                                            </span>
-                                        </span>
-                                        <hr>
-                                        <span class="icon icon-size-default icon-state-default" title="{{ icon.file|replace({'.svg': ''}) }}">
-                                            <span class="icon-markup">
-                                                {{ icon.inline }}
-                                            </span>
-                                        </span>
                                     </div>
                                 </div>
                             {% endfor %}
